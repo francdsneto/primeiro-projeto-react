@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# Curso React Básico - ADA - Santanders Coders 2024
+> Status: Concluído
+
+Projeto gerado no acompanhamento do curso de React Básico da ADA - Santanders Coders 2024
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
