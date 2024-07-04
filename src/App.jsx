@@ -7,15 +7,15 @@ import { Article } from "./components/article/Article";
 import article1Img from "./assets/images/article1.png";
 import article2Img from "./assets/images/article2.png";
 import article3Img from "./assets/images/article3.png";
-// import { Counter } from "./components/counter/Counter";
+import { Counter } from "./components/counter/Counter";
 
 class App extends React.Component {
   render() {
     return (
       <>
-        <Navbar />
-        {/* <Counter /> */}
-        <section id="articles">
+        {/* <Navbar /> */}
+        <Counter />
+        {/* <section id="articles">
           <Article
             thumbnail={article1Img}
             title="Designing Dashboards"
@@ -40,7 +40,7 @@ class App extends React.Component {
             provider="NASA"
             description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus eius, nam quis, quisquam ipsam nesciunt incidunt cupiditate, veritatis libero facere possimus amet magni quo. Ipsum quasi architecto nobis? Sint, inventore."
           />
-        </section>
+        </section> */}
       </>
     );
   }
