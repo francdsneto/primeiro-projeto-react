@@ -3,6 +3,10 @@
   gap: 1rem;
 }
 
+#article > img {
+  max-width: 35%;
+}
+
 #article .article-infos h2 {
   font-size: 30px;
   font-weight: bold;
